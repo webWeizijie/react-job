@@ -2,7 +2,6 @@ import axios from 'axios'
 import io from 'socket.io-client'
 const socket = io('ws://47.104.18.114:9093');
 
-
 const MSG_LIST = 'MSG_LIST'
 const MSG_RECV = 'MSG_RECV'
 const MSG_READ = 'MSG_READ'
